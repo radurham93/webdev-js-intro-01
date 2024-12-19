@@ -15,18 +15,18 @@ const book = "New Moon";
 // Declare a mutable variable named "activity" and assign
 // an activity to it.
 
-let activity = "Baking Bread"
+let activity = "Baking Bread";
 
 function updateBookSentence() {
     // Sets the text inside the element with the id of book answer. 
     // innerText is one of many properties on a HTML element.
-    bookAnswerEl.innerText = book
+    bookAnswerEl.innerText = book;
 }
 
 function updateActivitySentence() {
     // Update this function 
     // (hint: it will be similiar to the previous function)
-    activityAnswerEl.innerText = activity
+    activityAnswerEl.innerText = activity;
 
 }
 
